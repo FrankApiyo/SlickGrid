@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>SlickGrid</artifactId>
-    <version>2.2-SNAPSHOT</version>
+    <version>2.3.16-SNAPSHOT</version>
     <name>SlickGrid</name>
     <description>WebJar for SlickGrid</description>
     <url>http://webjars.org</url>
@@ -27,7 +27,7 @@
     <licenses>
         <license>
             <name>MIT</name>
-			<url>https://github.com/mleibman/SlickGrid/blob/master/MIT-LICENSE.txt</url>
+            <url>https://github.com/6pac/SlickGrid/blob/master/MIT-LICENSE.txt</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -41,8 +41,8 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>2.1</upstream.version>
-        <upstream.url>http://github.com/mleibman/SlickGrid/archive</upstream.url>
+        <upstream.version>2.3.16</upstream.version>
+        <upstream.url>https://github.com/6pac/SlickGrid/archive</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
     </properties>
 
