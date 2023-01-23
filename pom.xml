@@ -9,9 +9,9 @@
     </parent>
     
     <packaging>jar</packaging>
-    <groupId>org.webjars</groupId>
-    <artifactId>SlickGrid</artifactId>
-    <version>2.3.17-SNAPSHOT</version>
+    <groupId>net.clojars.apiyofrank</groupId>
+    <artifactId>slick-grid-web-jar</artifactId>
+    <version>3.0.2</version>
     <name>SlickGrid</name>
     <description>WebJar for SlickGrid</description>
     <url>http://webjars.org</url>
@@ -41,7 +41,7 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>2.3.16</upstream.version>
+        <upstream.version>3.0.2</upstream.version>
         <upstream.url>https://github.com/6pac/SlickGrid/archive</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
     </properties>
@@ -94,7 +94,7 @@
                 <version>2.5.3</version>
             </plugin>
 
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <version>1.6.8</version>
@@ -104,7 +104,7 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
-            </plugin>
+            </plugin> -->
         </plugins>
     </build>
 
